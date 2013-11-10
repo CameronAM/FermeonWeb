@@ -34,7 +34,7 @@ if ON_OPENSHIFT:
     }
 
     _MONGODB_USER = 'admin'
-    _MONGODB_PASSWD = 'LcDpeM2sIvNk'
+    _MONGODB_PASSWD = 'LEpsvirFBRFR'
     _MONGODB_HOST = os.environ['OPENSHIFT_MONGODB_DB_HOST']+':'+os.environ['OPENSHIFT_MONGODB_DB_PORT']
     _MONGODB_NAME = 'fermeon'
     _MONGODB_DATABASE_HOST = \
